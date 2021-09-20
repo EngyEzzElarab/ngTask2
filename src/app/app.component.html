@@ -1,0 +1,15 @@
+<!-- <p *ngFor="let employee of arrOfEmployees"> name: {{employee.employee_name}}, age {{employee.employee_age}}, salary {{employee.employee_salary}}</p> -->
+
+<table>
+  <tr>
+    <th>Employee Name</th>
+    <th> Employee Age </th>
+    <th>  Employee Salary</th>
+  </tr>
+  <tr *ngFor="let employee of arrOfEmployees"> 
+    <td>{{employee.employee_name}}</td>
+    <td>{{employee.employee_age}}</td>
+    <td>{{employee.employee_salary}}</td>
+  
+  </tr>
+</table>
